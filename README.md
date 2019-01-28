@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+                                                            BLOCK.IO
+                                                            
+Name : 
+    BLOCK.IO
 
-You can use the [editor on GitHub](https://github.com/shobika-babu/Block.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Description : 
+    Block.io is a service where you can open the wallets of BITCOIN, DOGECOIN, LITECOIN cryptocurrencies.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+TechStack:
+    Nodejs (Latest version)
+    
+Steps: 
 
-### Markdown
+  Step 1: Create an account in https://block.io/.
+  Step 2: Click on “Show API Keys”, Testnet and Mainnet API keys for Bitcoin, Litecoin and Dogecoin are provided.
+  Step 3: Copy the necessary API key and paste it in .env file (BLOCK_IO_KEY = ‘key’).
+  Step 4: Copy the secret key and paste it in .env file. (BLOCK_IO_SECRET = 'secret') (You will be prompted to set secret after login).
+  Step 5: Install all the dependencies used in the project. Command used is npm install.
+  Step 6: To start the project give “npm start” or “node index”
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/shobika-babu/Block.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+ 
