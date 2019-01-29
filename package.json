@@ -1,0 +1,17 @@
+{
+  "name": "block-io",
+  "version": "1.0.0",
+  "description": "Service where you can open the wallets of cryptocurrency",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "author": "Shobika",
+  "license": "ISC",
+  "dependencies": {
+    "block_io": "^2.0.0",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4"
+  }
+}
